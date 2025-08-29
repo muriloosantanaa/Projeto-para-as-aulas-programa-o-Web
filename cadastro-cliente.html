@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="Pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Cliente</title>
+</head>
+<body>
+    <form action="menu.html" method="get">
+        <table border="2">
+            <tr>
+                <td colspan="2" align="center" bgcolor="#f0f0f0">
+                    <h2>Dados do cliente</h2>
+                </td>
+            </tr>
+            <tr>
+                <td align="rigth"> <b>Nome completo</b></td>
+                <td><input type="text" id="txtNome" maxlength="40" required></td>
+            </tr>
+            <tr>
+                <td align="rigth"> <b>Data Nascimento</b></td>
+                <td><input type="date" id="txtDTNasc" required></td>
+            </tr>
+                <tr>
+                <td align="rigth"> <b>Telefone</b></td>
+                <td><input type="tel" id="txtTel" required></td>
+            </tr>
+            <tr>
+                <td align="rigth"> <b>Estado</b></td>
+                <td>
+                    <select name="estado" required>
+                        <option value="">Selecione</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="ES">Espirito Santo</option>
+                        <option value="BA">Bahia</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="CE">Ceará</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="PR">Paraná</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="TO">Tocantins</option>
+                        <option value="PA">Pará</option>
+                        <option value="AP">Amapá</option>
+                        <option value="RR">Roraima</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="AC">Acre</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="PI">Piauí</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="OUTRO">Outro</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <br>
+                    <input type="submit" value="Salvar Cliente">
+                    <input type="reset" value="Limpar Campos">
+                    <br><br>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <a href="menu.html">Voltar ao Menu</a>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
